@@ -23,7 +23,7 @@ public class Kevin extends Human implements Programmer, Swimable {
     public void swimDown(int yDistance) {
         setY(getY() - yDistance);
         if(getY() < -10){
-            System.out.println("너무 깊이 들어가다가 죽는다!!");
+            System.out.println("너무 깊이 들어가다가 죽는다!!!");
         }
     }
 }
